@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(104, 59, 4);
+}
+body{
+    background-color: rgb(205, 224, 231);
+}
+.head{
+    padding: 10px;
+    display: flex;
+    
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    background-color: rgb(180, 211, 221);
+    
+}
+.navbar .links{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .links ul{
+ list-style: none;
+ display: flex;
+}
+.navbar .links ul li{
+    padding: 7px;
+}
+.navbar .links ul li a{
+    text-decoration: none;
+    color: rgb(17, 63, 75);
+}
+.navbar .links ul li a:hover{
+    color: rgb(179, 112, 30);
+    transition: .3s ease;
+}
+.logo{
+    background: url(/kesim.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1rem;
+
+}
+.logo h2{
+    cursor: pointer;
+    color: rgb(17, 63, 75);
+    font-size: 1.5rem;
+    margin-left: 3.3rem;
+    margin-top: 5px;
+}
+/* hero menu baslangici */
+
+.hero-header{
+    background-color:rgb(205, 224, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.5rem;
+    padding-left: 3rem;
+    height: 100vh;
+    
+    }
+    
+    .text h2{
+        font-size: 1.6rem;
+        color: rgb(17, 63, 75);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .text p{
+        padding-top: 1rem;
+        font-size: .9rem;
+        width: 20rem;
+        color: rgb(104, 59, 4);
+    }
+    .text button{
+        margin-left: 6rem;
+        margin-top: 1.4rem;
+        padding: .2rem;
+        border: none;
+        border-radius: .5rem;
+        border: 1px solid brown;
+        color: brown;
+        font-size: .9rem;
+        width: 5rem;
+        text-transform:uppercase;
+    }
+    .text button:hover{
+        color: rgb(17, 63, 75);
+        border-color: rgb(17, 63, 75);
+        transition: .3s ease;
+        cursor: pointer;
+    }
+    .hero-header .img img{
+        border-radius: 1rem;
+        width: 200px;
+        background-size: cover;
+    }
+    .hero-header .img{
+        padding-right: 5rem;
+    }
+    /* Hero menu sonu /*
+    /* B&B baslangici */
+    #infoh1{
+        text-align: center;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: rgb(17, 63, 75);
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info .sol-teref{
+        width: 50%;
+        margin-left: 2rem;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .info .sol-teref h2{
+        width: max-content;
+        color: rgb(104, 59, 4);
+        margin-left: 3rem;
+        border-radius: .2rem;
+        box-shadow: -4px 0px 20px 6px  rgb(17, 63, 75) ;
+        
+    }
+    
+    .info .sol-teref p{
+        width: 20rem;
+        padding-left: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid gray;
+    }
+    
+    .info .sag-teref{
+        margin: auto;
+        margin-top: 1.6rem;
+        flex-direction: column;
+        
+    }
+    
+    .info .sag-teref .htmlimg {
+        margin-top: 2.6rem;
+        border-bottom: 1px solid gray;
+
+    }
+    .info .sag-teref .htmlimg img{
+        width: 150px;
+        box-shadow: 0px 4px 28px 4px  rgb(17, 63, 75) ;
+        border-radius: 1rem;
+        border: 1px solid rgb(17, 63, 75);
+    }
+
+    .info .sag-teref .cssimg{
+        margin-top: 2.2rem;
+        border-bottom: 1px solid gray;
+    }
+    .info .sag-teref .cssimg img{
+        width: 150px;
+        box-shadow: 0px 4px 28px 4px rgb(17, 63, 75) ;
+        border: 1px solid rgb(17, 63, 75);
+        border-radius: 1rem;
+        background-color: transparent;
+    }
+    .info .sag-teref .jsimg img{
+        width: 150px;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 28px 4px rgb(17, 63, 75) ;
+        border: 1px solid rgb(17, 63, 75);
+    }
+    .info .sag-teref .jsimg {
+        margin-top: 2.3rem;
+        border-bottom: 1px solid gray;
+    }
+    /* B&B son */
+/* Daha Etrafli Baslangic*/
+.daha-etrafli-h1{
+ font-size: .7rem;
+ text-align: center;
+ padding-top: 2rem;
+ color:rgb(17, 63, 75) ;
+}
+.daha-etrafli {
+
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.daha-etrafli p{
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 3px -5px 29px -4px  rgb(17, 63, 75) ;
+    font-weight: 600;
+    word-spacing: 3px;
+    color:rgb(104, 59, 4) ;
+}
+/*Daha Etrafli Son */
+
+/*Haqqimda Baslangic */
+#nameh1{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(17, 63, 75);
+    margin-bottom: 2rem;
+}
+.my-info{
+    margin-bottom: 3rem;
+    width: 65%;
+    margin: auto;
+   
+}
+.my-info p{
+    box-shadow: 3px -5px 29px -4px  rgb(17, 63, 75) ;
+    color: rgb(104, 59, 4);
+    text-align: center;
+    font-weight: 600;
+    word-spacing: 3px;
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+}
+/*Haqqimda Son */
+/* CV Baslangic */
+#cv-h1{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(17, 63, 75);
+    margin-bottom: 2rem;
+    
+}
+.cv{
+    width: 80%;
+   margin: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+/* CV son */
+
+/*Elaqe baslangic */
+#elaqe-head{
+    font-size: 1rem;
+    color: rgb(17, 63, 75);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.info-contact{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.info-contact .left-contact li{
+    padding:10px ;
+    color: rgb(104, 59, 4);
+    list-style: none;
+    margin-left: 1rem;
+}
+.info-contact .right-contact{
+margin-right: 2rem;
+box-shadow: 5px 5px 19px 11px rgb(17, 63, 75)
+;
+}
+.info-contact .left-contact{
+    margin-top: 1rem;
+}
+.info-contact .left-contact ul li i{
+    color: rgb(17, 63, 75);
+}
+/*Elaqe son */
+
+
+/*Footer Baslangic*/
+ footer{
+     bottom: 0;
+     background: rgb(180, 211, 221);
+     width: 100%;
+     height: 20px;
+     
+ }
+ footer h6{
+     text-align: center;
+     color: rgb(17, 63, 75);
+     margin-top: 2px;
+ }
+/*Footer son */
